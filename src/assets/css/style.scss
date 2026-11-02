@@ -198,6 +198,46 @@ footer{
         }
     }
 }
+
+.login{
+    width: 450px;
+}
+
+.cart-bucket 
+{
+    position: relative;
+    span {
+        position: absolute;
+        background-color: #F97316;
+        color: #FFF;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        top: -5px;
+        right: -13px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+.sidebar{
+    ul{
+        li{
+            border-bottom: 1px solid rgba(6, 17, 35, 0.2);
+            margin: 2px;
+            a{
+                display: block;
+                padding: 10px 10px;
+                color: $primary-black;
+                text-decoration: none;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
 @media (min-width: 200px) and (max-width: 1080px) {
     .section-1{
         .swiper{
